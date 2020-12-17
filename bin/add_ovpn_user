@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if test -z "$1" 
+then
+      echo "Geef een user op: ./add_ovpn_user user1"
+else
+docker run -v $PWD/vpn-data:/etc/openvpn --rm -it ovpn-dvb easyrsa build-client-full $1 nopass
+
+docker run -v $PWD/vpn-data:/etc/openvpn --rm ovpn-dvb ovpn_getclient $1 > $1.ovpn
+
+fi
+
