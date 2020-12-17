@@ -11,8 +11,8 @@ OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
 
 #### Upstream Links
 
-* Docker Registry @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn/)
-* GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn)
+* Docker Registry @ [ovpn-dvb](https://hub.docker.com/r/dbeeren/ovpn/)
+* GitHub @ [kylemanna/docker-openvpn](https://github.com/dbeeren/docker-openvpn)
 
 ## Quick Start
 
